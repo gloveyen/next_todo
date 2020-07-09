@@ -1,0 +1,30 @@
+//Base
+@import "./base/font";
+
+//Pages
+@import "./pages/Home";
+@import "./pages/Add";
+
+//Components
+@import "./components/Item";
+@import "./components/DoneItem";
+@import "./components/Nav";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: -webkit-linear-gradient(120deg, #f6d365, #fda085);
+  background: -o-linear-gradient(120deg, #f6d365, #fda085);
+  background: -moz-linear-gradient(120deg, #f6d365, #fda085);
+  background: linear-gradient(120deg, #f6d365, #fda085);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

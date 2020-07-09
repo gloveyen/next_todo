@@ -1,0 +1,27 @@
+.component-done-item {
+  height: 2rem;
+  background-color: #fff;
+  margin: 8px 0;
+  display: grid;
+  grid-template-columns: 1fr 50px;
+
+  div {
+    line-height: 2rem;
+    text-indent: 1rem;
+  }
+
+  span {
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &.delete {
+      background-color: rgb(233, 112, 112);
+    }
+  }
+}

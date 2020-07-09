@@ -1,0 +1,31 @@
+.page-add {
+  form {
+    width: 500px;
+
+    label {
+      display: grid;
+      height: 2rem;
+      grid-template-columns: 120px 1fr 50px;
+      grid-gap: 8px;
+      width: 100%;
+      line-height: 2rem;
+
+      input {
+        border: none;
+        border-radius: 4px;
+        text-indent: 8px;
+      }
+
+      button {
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #333;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
